@@ -1,7 +1,7 @@
 # f-strings and string formatting
 
 ### What is this?
-We need a way to dynamically combine data from variables and other data structures into a readable string output, or in other words, string interpolation. In Python, the preferred way, according to Brett Slatkin [4] (as of Python 3.6) is to use f-strings. Another option is the `str.format()` method.
+We need a way to dynamically combine data from variables and other data structures into a readable string output, or in other words, string interpolation. In Python, the preferred way, according to Brett Slatkin [5] (as of Python 3.6) is to use f-strings. Another option is the `str.format()` method.
 
 ### Not Pythonic
 This is considered the old "C-style" method of formatting strings. A Pythonic developer should not use this approach.
@@ -38,5 +38,8 @@ print("{0} is {1}".format("foo", "bar"))
 ### References
 [1] [PEP 498 -- Literal String Interpolation ](https://www.python.org/dev/peps/pep-0498/)  
 [2] [PEP 3101 -- Advanced String Formatting](https://www.python.org/dev/peps/pep-3101/)  
-[3] *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader  
-[4] *Effective Python: 90 Specific Ways to Write Better Python* by Brett Slatkin
+[3] [`str.format` documentation](https://docs.python.org/3/library/stdtypes.html#str.format)
+
+#### Books that mention this topic:
+[4] *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader  
+[5] *Effective Python: 90 Specific Ways to Write Better Python* by Brett Slatkin  

@@ -1,2 +1,4 @@
 - *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader 
 - *Effective Python: 90 Specific Ways to Write Better Python * by Brett Slatkin
+- *Python Cookbook, Third Edition* by David Beazley and Brian K. Jones
+- *Writing Idiomatic Python 3* by Jeff Knupp
