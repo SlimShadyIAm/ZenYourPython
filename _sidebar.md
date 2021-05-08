@@ -1,5 +1,8 @@
 * [Home](/)
+* [comprehensions](comprehensions.md)
 * [Context Managers](context-managers.md)
 * [f-strings and string formatting](fstrings.md)
 * [for loops](forloops.md)
 * [\_\_repr\_\_ and \_\_str_\_](reprstr.md)
+* [sets](sets.md)
+* [practices](practices.md)
