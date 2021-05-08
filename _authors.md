@@ -1,0 +1,2 @@
+- *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader 
+- *Effective Python: 90 Specific Ways to Write Better Python * by Brett Slatkin
