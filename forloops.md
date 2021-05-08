@@ -1,4 +1,6 @@
-# `for` loops
+# Pythonic `for` loops
+
+## for loops
 
 ### What is this?
 If you're coming from another programming language, you may be used to using indexes to loop through an iterable such as an array. In Java, for example:
