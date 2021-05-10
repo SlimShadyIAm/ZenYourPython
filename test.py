@@ -38,5 +38,10 @@ def pythonic_function():
     return even
 
 if __name__ == '__main__':
-    unpythonic_function()
-    pythonic_function()
+    the_list = [1, 2, 2, 1, 2, 3, 4, 2, 3, 6, 2]
+    the_sum = 0
+
+    for x in set(the_list):
+        the_sum += x
+
+    print(the_sum)
