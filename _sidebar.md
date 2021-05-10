@@ -1,4 +1,5 @@
 * [Home](/)
+* [collections](collections.md)
 * [comprehensions](comprehensions.md)
 * [context managers](context-managers.md)
 * [decorators](decorators.md)
