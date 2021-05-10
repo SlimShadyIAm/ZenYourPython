@@ -59,6 +59,8 @@ class Person:
         return self.age == other.age and self.name == other.name
 
 if __name__ == '__main__':
-    leaderboard = ["Aamir", "Abdullah", "Adarsh", "Frans", "Vadim"]
-    for i in range(len(leaderboard)):
-        print(f"{i+1} {leaderboard[i]}")
+    names = ["Aamir", "Adarsh", "Abdullah", "Frans"]
+    ages = [21, 20, 19, 21]
+
+    for i in range(len(names)):
+        print(f"{names[i]}, age {ages[i]}")

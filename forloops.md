@@ -56,6 +56,35 @@ for i, name in enumerate(leaderboard):
     print(f"{i+1}. {name}")
 ```
 
+## zip
+### What is this?
+This function takes iterables as input and returns a tuple with an element from each of the objects. This is useful for looping through lists in parallel.
+
+### Unpythonic
+```py
+names = ["Aamir", "Adarsh", "Abdullah", "Frans"]
+ages = [21, 20, 19, 21]
+
+for i in range(len(names)):
+    print(f"{names[i]}, age {ages[i]}")
+
+# Output
+## Aamir, age 21
+## Adarsh, age 20
+## Abdullah, age 19
+## Frans, age 21
+
+```
+
+### Pythonic
+The advantage of using `zip` over the "unpythonic" approach is that, in addition to the syntax being cleaner, it also handles the case where one list is longer than the other. In this case it exhausts the shortest list and then simply terminates.
+
+
+```py
+for name, age in zip(names, ages):
+    print(f"{name}, age {age}")
+```
+
 ### References
 [1] [Python docs -- enumerate](https://docs.python.org/3/library/functions.html#enumerate)  
 [2] [PEP 279 -- The enumerate() built-in function](https://www.python.org/dev/peps/pep-0279/)  
