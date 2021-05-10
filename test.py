@@ -13,10 +13,10 @@ import timeit
 
 def timer(function):
   def new_function():
-    start_time = timeit.default_timer()
+    start_time = datetime.now()
     function()
-    elapsed = timeit.default_timer() - start_time
-    print('Function "{name}" took {time} seconds to complete.'.format(name=function.__name__, time=elapsed))
+    elapsed = (datetime.now() - start_time).total_seconds()
+    print(f'Function took {elapsed} seconds to complete.')
   return new_function
     
 @timer
@@ -37,11 +37,22 @@ def pythonic_function():
 
     return even
 
+from time import sleep
+from datetime import datetime
+
+@timer
+def some_stuff():
+    something = []
+    for i in range(10):
+        something.append(i)
+        sleep(0.1)
+
 if __name__ == '__main__':
-    the_list = [1, 2, 2, 1, 2, 3, 4, 2, 3, 6, 2]
-    the_sum = 0
+    # the_list = [1, 2, 2, 1, 2, 3, 4, 2, 3, 6, 2]
+    # the_sum = 0
 
-    for x in set(the_list):
-        the_sum += x
+    # for x in set(the_list):
+    #     the_sum += x
 
-    print(the_sum)
+    # print(the_sum)
+    some_stuff()
