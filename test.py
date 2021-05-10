@@ -47,12 +47,19 @@ def some_stuff():
         something.append(i)
         sleep(0.1)
 
+class Person:
+    def __init__(self, name, age):
+        self.age = age
+        self.name = name
+    
+    def __gt__(self, other):
+        return self.age > other.age
+    
+    def __eq__(self, other):
+        return self.age == other.age and self.name == other.name
+
 if __name__ == '__main__':
-    # the_list = [1, 2, 2, 1, 2, 3, 4, 2, 3, 6, 2]
-    # the_sum = 0
-
-    # for x in set(the_list):
-    #     the_sum += x
-
-    # print(the_sum)
-    some_stuff()
+    p1 = Person("Aamir", 21)
+    p2 = Person("Abdullah", 20)
+    print(p1 > p2)
+    print(p1 == p2)

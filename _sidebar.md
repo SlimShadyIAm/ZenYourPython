@@ -4,6 +4,7 @@
 * [decorators](decorators.md)
 * [f-strings and string formatting](fstrings.md)
 * [for loops](forloops.md)
+* [magic methods (dunders)](magicmethods.md)
 * [\_\_repr\_\_ and \_\_str_\_](reprstr.md)
 * [sets](sets.md)
 * [practices](practices.md)
