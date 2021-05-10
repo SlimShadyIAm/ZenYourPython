@@ -60,7 +60,7 @@ a.items() & b.items()
 ```
 
 ## References
-[1] [Python docs -- sets](https://docs.python.org/3/tutorial/datastructures.html#sets)
+[1] [Python docs -- sets](https://docs.python.org/3/tutorial/datastructures.html#sets)  
 [2] [PEP 218 -- Adding a Built-In Set Object Type
 ](https://www.python.org/dev/peps/pep-0218/)
 

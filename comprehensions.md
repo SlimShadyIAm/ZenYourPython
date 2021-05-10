@@ -88,13 +88,14 @@ This is also similar to list comprehensions, except the resulting data structure
 ```py
 numbers_squared = { x**2 for x in numbers }
 ```
-[1] [PEP 202 -- List Comprehensions](https://www.python.org/dev/peps/pep-0202/)
-[2] [Python docs -- List Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
-[3] [PEP 274 -- Dict Comprehensions](https://www.python.org/dev/peps/pep-0274/)
-[4] [Python docs -- Dict Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
-[5] [Python docs -- Set Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 
-## References
+### References
+
+[1] [PEP 202 -- List Comprehensions](https://www.python.org/dev/peps/pep-0202/)  
+[2] [Python docs -- List Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)  
+[3] [PEP 274 -- Dict Comprehensions](https://www.python.org/dev/peps/pep-0274/)  
+[4] [Python docs -- Dict Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)  
+[5] [Python docs -- Set Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)  
 
 ### Books that mention this topic:
 [6] *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader  

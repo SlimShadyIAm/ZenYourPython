@@ -25,7 +25,7 @@ False
 ```
 
 ### References
-[1] [Python docs -- Special method names](https://docs.python.org/3.3/reference/datamodel.html#special-method-names)
+[1] [Python docs -- Special method names](https://docs.python.org/3.3/reference/datamodel.html#special-method-names)  
 [2] [Python docs -- Special method names](https://docs.python.org/3.3/reference/datamodel.html#special-method-names)
 
 #### Books that mention this topic:

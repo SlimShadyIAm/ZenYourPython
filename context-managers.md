@@ -53,10 +53,10 @@ from contextlib import contextmanager
 ```
 
 ## References
-[1] [Python docs -- context managers](https://docs.python.org/3/library/stdtypes.html#typecontextmanager)
-[2] [Python docs -- contextlib](https://docs.python.org/3/library/contextlib.html#contextlib.contextmanager)
-[3] [Python docs -- The try statement](https://docs.python.org/3/reference/compound_stmts.html#finally)
-[4] [PEP 343 -- The "with" Statement](https://www.python.org/dev/peps/pep-0343/)
+[1] [Python docs -- context managers](https://docs.python.org/3/library/stdtypes.html#typecontextmanager)  
+[2] [Python docs -- contextlib](https://docs.python.org/3/library/contextlib.html#contextlib.contextmanager)  
+[3] [Python docs -- The try statement](https://docs.python.org/3/reference/compound_stmts.html#finally)  
+[4] [PEP 343 -- The "with" Statement](https://www.python.org/dev/peps/pep-0343/)  
 
 #### Books that mention this topic:
 [5] *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader  

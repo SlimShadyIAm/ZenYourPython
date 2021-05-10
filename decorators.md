@@ -59,8 +59,8 @@ def some_stuff():
 Now, we can simply add `@timer` in front of every function and calling the function will give us the timer output just as before.
 
 ### References
-[1] [Python docs -- decorators](https://wiki.python.org/moin/PythonDecorators)
-[2] [PEP 318 -- Decorators for Functions and Methods](https://www.python.org/dev/peps/pep-0318/)
+[1] [Python docs -- decorators](https://wiki.python.org/moin/PythonDecorators)  
+[2] [PEP 318 -- Decorators for Functions and Methods](https://www.python.org/dev/peps/pep-0318/)  
 
 #### Books that mention this topic:
 [4] *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader  

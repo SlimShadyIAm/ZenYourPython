@@ -27,15 +27,41 @@ for item in items:
     print(item)
 ```
 
-If you need the indexes of the items as well as the item itself, then you should use [`enumerate`](/for/enumerate.md)
+If you need the indexes of the items as well as the item itself, then you should use `enumerate`, as explained below.
 
 ?> Note: if you have a large array which may contain duplicate values, then QuantifiedCode claims that it would be more efficient to turn the `list` into a `set` [5], the reasons for which are described better in [set](/set.md).
 
-### References 
-#### Books that mention this topic:
+## enumerate
+### What is this?
+The way of looping through iterables as explained in [for-loops](forloops.md) doesn't give you a way to get the indexes of the elements. The `enumerate` function turns a list of objects into a list of tuples, with the first element being the index and the second being the object itself.
 
-[1] *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader  
-[2] *Effective Python: 90 Specific Ways to Write Better Python* by Brett Slatkin  
-[3] *Python Cookbook, Third Edition* by David Beazley and Brian K. Jones  
-[4] *Writing Idiomatic Python 3* by Jeff Knupp  
-[5] *The Little Book of Python Anti-Patterns* by QuantifiedCode  
+### Not pythonic
+```py
+leaderboard = ["Aamir", "Abdullah", "Adarsh", "Frans", "Vadim"]
+for i in range(len(leaderboard)):
+    print(f"{i+1}. {leaderboard[i]}")
+
+# Output
+## 1. Aamir
+## 2. Abdullah
+## 3. Adarsh
+## 4. Frans
+## 5. Vadim
+```
+
+### Pythonic
+This is a much more concise way to write the same for-loop.
+```py
+for i, name in enumerate(leaderboard):
+    print(f"{i+1}. {name}")
+```
+
+### References
+[1] [Python docs -- enumerate](https://docs.python.org/3/library/functions.html#enumerate)  
+[2] [PEP 279 -- The enumerate() built-in function](https://www.python.org/dev/peps/pep-0279/)  
+#### Books that mention this topic:
+[3] *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader  
+[4] *Effective Python: 90 Specific Ways to Write Better Python* by Brett Slatkin  
+[5] *Python Cookbook, Third Edition* by David Beazley and Brian K. Jones  
+[6] *Writing Idiomatic Python 3* by Jeff Knupp  
+[7] *The Little Book of Python Anti-Patterns* by QuantifiedCode  
