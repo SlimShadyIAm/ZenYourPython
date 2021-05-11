@@ -64,7 +64,7 @@ a.items() & b.items()
 [2] [PEP 218 -- Adding a Built-In Set Object Type
 ](https://www.python.org/dev/peps/pep-0218/)
 
-### Books that mention sets:
+### Books that mention this topic:
 [3] *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader  
 [4] *Python Cookbook, Third Edition* by David Beazley and Brian K. Jones  
 [5] *Writing Idiomatic Python 3* by Jeff Knupp  
