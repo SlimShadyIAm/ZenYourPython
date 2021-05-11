@@ -3,6 +3,7 @@
 * [comprehensions](comprehensions.md)
 * [context managers](context-managers.md)
 * [decorators](decorators.md)
+* [dicts](dicts.md)
 * [f-strings and string formatting](fstrings.md)
 * [for loops](forloops.md)
 * [generators](generators.md)
