@@ -32,7 +32,11 @@ def index_words_iter(text):
             yield index + 1
 
 if __name__ == '__main__':
-    words = ["breathe", "sunflower", "rainbow", "three to the right", "four to the left"]
-    capitals = (word.upper() for word in words)
-    print(next(capitals))
-    print(next(capitals))
+    some_numbers = [1,2,3,4,5]
+    fst, snd, *rest = some_numbers
+    # 1, 2, [3, 4, 5]
+    print(fst, snd, rest)
+
+    fst, *mid, last = some_numbers
+    # 1, [2, 3, 4], 5
+    print(some_numbers[2:])
