@@ -1,6 +1,6 @@
 # Pythonic `for` loops
 
-## for loops
+## `for` loops
 
 ### What is this?
 If you're coming from another programming language, you may be used to using indexes to loop through an iterable such as an array. In Java, for example:
@@ -31,7 +31,7 @@ If you need the indexes of the items as well as the item itself, then you should
 
 ?> Note: if you have a large array which may contain duplicate values, then QuantifiedCode claims that it would be more efficient to turn the `list` into a `set` [5], the reasons for which are described better in [set](/set.md).
 
-## enumerate
+## `enumerate`
 ### What is this?
 The way of looping through iterables as explained in [for-loops](forloops.md) doesn't give you a way to get the indexes of the elements. The `enumerate` function turns a list of objects into a list of tuples, with the first element being the index and the second being the object itself.
 
@@ -56,7 +56,7 @@ for i, name in enumerate(leaderboard):
     print(f"{i+1}. {name}")
 ```
 
-## zip
+## `zip`
 ### What is this?
 This function takes iterables as input and returns a tuple with an element from each of the objects. This is useful for looping through lists in parallel.
 

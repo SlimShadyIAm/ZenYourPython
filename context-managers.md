@@ -52,7 +52,9 @@ from contextlib import contextmanager
         f.write('bye now')
 ```
 
-## References
+---
+
+### References
 [1] [Python docs -- context managers](https://docs.python.org/3/library/stdtypes.html#typecontextmanager)  
 [2] [Python docs -- contextlib](https://docs.python.org/3/library/contextlib.html#contextlib.contextmanager)  
 [3] [Python docs -- The try statement](https://docs.python.org/3/reference/compound_stmts.html#finally)  

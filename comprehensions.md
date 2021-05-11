@@ -89,6 +89,12 @@ This is also similar to list comprehensions, except the resulting data structure
 numbers_squared = { x**2 for x in numbers }
 ```
 
+## Generator expressions
+
+Please see [generators](generators.md).
+
+---
+
 ### References
 
 [1] [PEP 202 -- List Comprehensions](https://www.python.org/dev/peps/pep-0202/)  

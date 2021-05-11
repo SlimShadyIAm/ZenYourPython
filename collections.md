@@ -1,6 +1,6 @@
 # `collections` module
 
-## defaultdict
+## `defaultdict`
 A subclass of the `dict` class. It is instantiated with the desired default type of keys, such as `int`, `list`. It doesn't throw a `KeyError` when trying to access a non-existant key, instead it creates a new key with the supplied factory function.
 
 ### Example:
@@ -14,7 +14,7 @@ A subclass of the `dict` class. It is instantiated with the desired default type
 []
 ```
 
-## namedtuple
+## `namedtuple`
 `namedtuples` are like regular tuples where each attribute has a unique identifier, so you don't need to remember the indexes of elements.
 
 ```py
@@ -25,7 +25,7 @@ A subclass of the `dict` class. It is instantiated with the desired default type
 Person(name='Aamir', age=21)
 ```
 
-## deque
+## `deque`
 
-## counter
+## `counter`
 

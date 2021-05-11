@@ -53,13 +53,13 @@ Here is how we would use it in practice, or with a for loop.
 If we time the two different functions, we notice that the generator expression is faster since it doesn't build the entire list before returning.
 
 ```py
-    for _ in index_words(input_string):
-        pass
-    # Function took 6.917019 seconds to complete.
+for _ in index_words(input_string):
+    pass
+# Function took 6.917019 seconds to complete.
 
-    for _ in index_words_iter(input_string):
-        pass
-    # Function took 1.1e-05 seconds to complete.
+for _ in index_words_iter(input_string):
+    pass
+# Function took 1.1e-05 seconds to complete.
 ```
 
 ## Generator expressions
@@ -81,9 +81,9 @@ Similar to generators, this is a special syntax that can create a generator usin
 ---
 
 ### References
-[1] [PEP 255 -- Simple Generators](https://www.python.org/dev/peps/pep-0255/)
-[2] [Python docs -- Generators](https://wiki.python.org/moin/Generators)
-[3] [PEP 289 -- Generator Expressions](https://www.python.org/dev/peps/pep-0289/)
+[1] [PEP 255 -- Simple Generators](https://www.python.org/dev/peps/pep-0255/)  
+[2] [Python docs -- Generators](https://wiki.python.org/moin/Generators)  
+[3] [PEP 289 -- Generator Expressions](https://www.python.org/dev/peps/pep-0289/)  
 [3] [Python docs -- Generator Expressions](https://docs.python.org/3/reference/expressions.html#generator-expressions)
 
 #### Books that mention this topic

@@ -1,4 +1,4 @@
-# \_\_repr\_\_ and \_\_str\_\_
+# `\_\_repr\_\_` and `\_\_str\_\_`
 
 ### What is this?
 Suppose we have the following class:
