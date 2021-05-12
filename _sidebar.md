@@ -1,4 +1,5 @@
 * [Home](/)
+* [assignment](assignment.md)
 * [class decorations](classdecos.md)
 * [collections](collections.md)
 * [comprehensions](comprehensions.md)
@@ -12,4 +13,3 @@
 * [practices](practices.md)
 * [\_\_repr\_\_ and \_\_str_\_](reprstr.md)
 * [sets](sets.md)
-* [unpacking](unpacking.md)
