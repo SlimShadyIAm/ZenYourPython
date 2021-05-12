@@ -1,4 +1,58 @@
-# Unpacking
+# Pythonic assignment
+## Assigning the same value to multiple variables
+This is a straightforward Python feature.
+
+### Not pythonic
+```py
+a = 1
+b = 1
+```
+
+### Pythonic
+```py
+a = b = 1
+
+>>> print(a, b)
+1 1
+>>> b = 2
+>>> print(a, b)
+1 2
+```
+
+## Conditional assignment
+A pythonic way to assign values to a variable when the value depends on a condition, or when one variable has the possibility of being `None`, an empty list or empty string.
+
+### Not pythonic
+```py
+a = 1
+b = 2 
+
+if a != b:
+    x = "Not equal"
+else:
+    x = "Equal"
+
+c = None
+if c is None:
+    c = "Value"
+
+```
+
+### Pythonic
+```py
+x = "Equal" if a == b else "Not equal"
+
+>>> print(x)
+"Not equal"
+
+c = None
+d = "Value"
+y = c or d
+
+>>> print(y)
+"Value"
+```
+
 ## tuple and list unpacking
 ### What is this?
 Tuple and list elements can be accessed using indexes as in lists, however Python supports unpacking, a much cleaner approach.
@@ -59,14 +113,14 @@ for x, _, z in the_list:
 
 ---
 ### References
-
-[1] [Python docs -- unpacking](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)  
-[2] [PEP 3132 -- Extended Iterable Unpacking
+[1] [PEP 308 -- Conditional Expressions](https://www.python.org/dev/peps/pep-0308/)
+[2] [Python docs -- unpacking](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)  
+[3] [PEP 3132 -- Extended Iterable Unpacking
 ](https://www.python.org/dev/peps/pep-3132/)  
 
 #### Books that mention this topic
-[3] *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader  
-[4] *Effective Python: 90 Specific Ways to Write Better Python* by Brett Slatkin  
-[5] *Python Cookbook, Third Edition* by David Beazley and Brian K. Jones  
-[6] *Writing Idiomatic Python 3* by Jeff Knupp  
-[7] *The Little Book of Python Anti-Patterns* by QuantifiedCode  
+[4] *Python Tricks: A Buffet of Awesome Python Features* by Dan Bader  
+[5] *Effective Python: 90 Specific Ways to Write Better Python* by Brett Slatkin  
+[6] *Python Cookbook, Third Edition* by David Beazley and Brian K. Jones  
+[7] *Writing Idiomatic Python 3* by Jeff Knupp  
+[8] *The Little Book of Python Anti-Patterns* by QuantifiedCode  

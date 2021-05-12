@@ -1,4 +1,4 @@
-# Pythonic `for` loops
+# Pythonic ways to loop through iterables
 
 ## `for` loops
 
@@ -84,6 +84,28 @@ The advantage of using `zip` over the "Not pythonic" approach is that, in additi
 for name, age in zip(names, ages):
     print(f"{name}, age {age}")
 ```
+
+## `join()`
+A built-in method to combine an iterable separated by a given string.
+
+### Not pythonic
+
+```py
+names = ["Aamir", "Abdullah", "Adarsh"]
+the_string = ""
+the_string += names[0]
+
+for name in names[1:]:
+    the_string += f", {name}"
+
+print(the_string)
+```
+
+### Pythonic
+```py
+the_string = ", ".join(names)
+```
+---
 
 ### References
 [1] [Python docs -- enumerate](https://docs.python.org/3/library/functions.html#enumerate)  
