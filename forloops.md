@@ -60,7 +60,7 @@ for i, name in enumerate(leaderboard):
 ### What is this?
 This function takes iterables as input and returns a tuple with an element from each of the objects. This is useful for looping through lists in parallel.
 
-### Unpythonic
+### Not pythonic
 ```py
 names = ["Aamir", "Adarsh", "Abdullah", "Frans"]
 ages = [21, 20, 19, 21]
@@ -77,7 +77,7 @@ for i in range(len(names)):
 ```
 
 ### Pythonic
-The advantage of using `zip` over the "unpythonic" approach is that, in addition to the syntax being cleaner, it also handles the case where one list is longer than the other. In this case it exhausts the shortest list and then simply terminates.
+The advantage of using `zip` over the "Not pythonic" approach is that, in addition to the syntax being cleaner, it also handles the case where one list is longer than the other. In this case it exhausts the shortest list and then simply terminates.
 
 
 ```py

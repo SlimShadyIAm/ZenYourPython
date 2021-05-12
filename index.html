@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <style>
-    .button {
-      background-color: #ffcb6b;
-      margin: 1rem;
-      border: none;
-      color: white;
-      padding: 10px 15px;
-      text-align: center;
-      text-decoration: none;
+    .tag {
       display: inline-block;
-      font-size: 16px;
+      margin: 0 5px;
+      font-size: 14px;
+      background-color: var(--sidebar-name-color);
+      padding: 2px 10px;
+      border-radius: 5px;
+      line-height: 2em;      
     }
   </style>
 </head>
@@ -25,7 +23,7 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
+      name: 'How To Zen Your Python',
       repo: ''
     }
   </script>
@@ -34,7 +32,35 @@
     window.$docsify = {
       loadSidebar: true,
       name: 'How To Zen Your Python',
-      subMaxLevel: 2
+      subMaxLevel: 2,
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function(content) {
+            var firstLine = content.split('\n')[0]
+            var matches = [];
+
+            var pattern = /\[(.*?)\]/g;
+            var match;
+            while ((match = pattern.exec(firstLine)) != null) {
+              matches.push(match[1]);
+            }
+
+            if (matches.length == 0) {
+              return content
+            }
+
+            var originalText = `[${matches}]`
+            matches = matches[0].split(",")
+
+            var tagText = "\n Tags: "
+            matches.forEach(match => {
+              tagText += `<span class="tag">${match.trim()}</span>`
+            })
+            content = content.replace(originalText, tagText)
+            return content
+          });
+        }
+      ]
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>

@@ -7,7 +7,7 @@ Context managers in Python are a way of managing resources where we expressly ne
 
 One of the context managers is the `with` keyword. Let's continue with the example of writing to a file.
 
-### Unpythonic
+### Not pythonic
 In the following situation, if there is an exception while writing, the file will not be closed as the `f.close()` line will not be reached by the interpreter.
 
 ```py
@@ -31,8 +31,8 @@ The behavior of what happens before and after the indented block can be defined 
 ## `finally`
 Similar to `with`, `finally` is a block of code that is always run every time in a `try...except...finally` code block. This is useful for any cleanup that may need to be done. 
 
-### Unpythonic
-We continue with the I/O example from before, so we can use the same unpythonic code as before.
+### Not pythonic
+We continue with the I/O example from before, so we can use the same Not pythonic code as before.
 
 ### Pythonic
 Here is an example that makes use of both `with` and `finally`. The example comes from *Python Tricks: The Book* [5]. This is how we could implement our own `with` context manager.

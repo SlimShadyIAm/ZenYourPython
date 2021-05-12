@@ -1,4 +1,5 @@
 * [Home](/)
+* [class decorations](classdecos.md)
 * [collections](collections.md)
 * [comprehensions](comprehensions.md)
 * [context managers](context-managers.md)

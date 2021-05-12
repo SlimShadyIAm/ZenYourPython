@@ -1,4 +1,4 @@
-# Comprehensions
+# Comprehensions [Readability, Performance]
 
 ### What is it?
 In Python, comprehensions are a block of code that can generate a sequence or filter/apply an operation to an existing sequence. These are considered pythonic, as opposed to using for loops to generate lists. Comprehensions are preferred over for-loops and `map`/`filter`, where possible and feasible. There are 3 types of comprehensions. 

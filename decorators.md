@@ -1,4 +1,4 @@
-# Decorators
+# Decorators [Readability]
 ### What is it?
 These can be considered reusable wrappers around callables which can provide useful utilities such as logging, rate limiting, caching and timing, or changing the behavior of the code without modifying the code inside the callable itself.
 
@@ -17,7 +17,7 @@ def some_stuff():
         sleep(0.1)
 ```
 
-### Unpythonic
+### Not pythonic
 One approach would be to simply edit each function like so.
 
 ```py
