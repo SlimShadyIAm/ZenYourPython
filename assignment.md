@@ -111,7 +111,28 @@ for x, _, z in the_list:
     print(x, z)
 ```
 
+## Swapping two variables
+Rather than using a temporary variable to swap values, Python has a simpler syntax to achieve the same result.
+### Not pythonic
+```py
+a = 1
+b = 2
+
+# Swapping
+temp = a
+b = a
+a = temp
+```
+
+### Pythonic
+```py
+a, b = b, a
+```
+
+Note that this can also work with more than 2 variables.
+
 ---
+
 ### References
 [1] [PEP 308 -- Conditional Expressions](https://www.python.org/dev/peps/pep-0308/)
 [2] [Python docs -- unpacking](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)  
