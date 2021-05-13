@@ -1,4 +1,4 @@
-# Magic Methods (dunder methods)
+# Magic Methods (dunder methods) [Readability, Programming Efficiency]
 
 ### What is it?
 These are considered special methods used to override default behavior in Python that, as the docs describe, are invoked by special syntax (such as +, -, >, <) [1].

@@ -1,4 +1,4 @@
-# Truth values for conditions
+# Truth values for conditions [Readbility, Programming Efficiency]
 The following are part of the PEP 8 Python Style Guide, which gives some guidelines on the preferred way to write conditions for `if` statements.
 
 ## Comparing things to `True`

@@ -1,4 +1,4 @@
-# Pythonic assignment
+# Pythonic assignment [Readability, Programming Efficiency]
 ## Assigning the same value to multiple variables
 This is a straightforward Python feature.
 

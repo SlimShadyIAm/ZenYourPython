@@ -1,4 +1,4 @@
-# `collections` module
+# `collections` module [Readability, Programming Efficiency, Performance]
 
 ## `defaultdict`
 A subclass of the `dict` class. It is instantiated with the desired default type of keys, such as `int`, `list`. It doesn't throw a `KeyError` when trying to access a non-existant key, instead it creates a new key with the supplied factory function.

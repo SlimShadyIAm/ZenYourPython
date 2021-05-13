@@ -1,4 +1,4 @@
-# Pythonic ways to loop through iterables
+# Pythonic ways to loop through iterables [Readability, Programming Efficiency]
 
 ## `for` loops
 

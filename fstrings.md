@@ -1,4 +1,4 @@
-# f-strings and string formatting
+# f-strings and string formatting [Readability]
 
 ### What is this?
 We need a way to dynamically combine data from variables and other data structures into a readable string output, or in other words, string interpolation. In Python, the preferred way, according to Brett Slatkin [5] (as of Python 3.6) is to use f-strings. Another option is the `str.format()` method.

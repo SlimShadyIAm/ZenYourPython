@@ -1,4 +1,4 @@
-# Sets
+# Sets [Programming Efficiency, Performance]
 According to the Python docs, `sets` are a data structure that contains unordered elements with no duplicates. These are useful for easily ensuring there are no duplicates in a list of items as well as the various membership mathematical operations such as union, intersection, etc. Membership tests in sets are O(1) and subset operations should be O(n) [3].
 
 ## Set comprehension

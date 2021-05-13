@@ -1,4 +1,4 @@
-# Context Managers
+# Context Managers [Readability]
 
 ### What is it?
 Context managers in Python are a way of managing resources where we expressly need to do something before and after a block of code, and make sure this is done cleanly. An example is anything to do with I/O, such as writing to a file. First we need to open the file, do some stuff with it and then write to and close the file. This is a pattern where it is easy to forget to close the file, or an exception happens during the write operation in which case resources are not properly unallocated as the file doesn't get closed. Context managers can implicitly abstract this for you.

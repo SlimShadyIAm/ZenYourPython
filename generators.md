@@ -1,4 +1,4 @@
-# Generators and generator expressions
+# Generators and generator expressions [Performance]
 
 ## Generators
 ### What is this?

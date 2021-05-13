@@ -1,4 +1,4 @@
-# `heapq`
+# `heapq` [Performance, Programming Efficiency]
 ### What is this?
 A built-in priority queue implementation in Python
 

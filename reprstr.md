@@ -1,4 +1,4 @@
-# `__repr__` and `__str__`
+# `__repr__` and `__str__` [Readability, Programming Efficiency]
 
 ### What is this?
 Suppose we have the following class:

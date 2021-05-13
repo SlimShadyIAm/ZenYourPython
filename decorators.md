@@ -1,4 +1,4 @@
-# Decorators [Readability]
+# Decorators [Readability, Programming Efficiency]
 ### What is it?
 These can be considered reusable wrappers around callables which can provide useful utilities such as logging, rate limiting, caching and timing, or changing the behavior of the code without modifying the code inside the callable itself.
 

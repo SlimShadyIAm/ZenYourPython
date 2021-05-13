@@ -1,4 +1,4 @@
-# List slicing
+# List slicing [Readability]
 ### What is this?
 This is how to interface with a sequence in order to access subsets of the sequence. This would work, for example, on lists, strings or classes that have implemented `__getitem__` and `__setitem__`. Knowing how to use this operation can be very powerful and useful and can prevent using unnecessary for loops.
 
