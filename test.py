@@ -13,8 +13,8 @@ class Person:
         return self.age == other.age and self.name == other.name
 
 if __name__ == '__main__':
-    c = None
-    d = "Value"
-    y = c or d
+    def some_function(*args, **kwargs):
+        print(args)
+        print(kwargs)
 
-    print(y)
+    some_function("hi", 1, key="sunny")

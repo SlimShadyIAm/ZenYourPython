@@ -66,6 +66,23 @@ if not some_list:
     print("Yay!")
 ```
 
+## Unnecessary `ors`
+### Unpythonic
+```py
+something = "Hello"
+if something == "Hello" or something == "Hi" or something = "Hey":
+    print("This is pretty noisy!")
+```
+
+```py
+greetings = ["Hello", "Hi", "Hey"]
+if something in greetings:
+    print("Better!")
+
+value = 3
+if value in [1, 2, 3, 4, 5]:
+    print("Good too!")
+```
 --- 
 
 ### References

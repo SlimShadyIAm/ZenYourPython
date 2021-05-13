@@ -105,6 +105,7 @@ print(the_string)
 ```py
 the_string = ", ".join(names)
 ```
+
 ---
 
 ### References
