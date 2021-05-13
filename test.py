@@ -13,8 +13,6 @@ class Person:
         return self.age == other.age and self.name == other.name
 
 if __name__ == '__main__':
-    def some_function(*args, **kwargs):
-        print(args)
-        print(kwargs)
-
-    some_function("hi", 1, key="sunny")
+    from itertools import takewhile
+    the_list = ["a", "b", "x", "y", "fin", "z"]
+    print(list(takewhile(lambda x: x != "fin", the_list)))
