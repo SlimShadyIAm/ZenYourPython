@@ -1,5 +1,8 @@
 # Good practices
 
+## Python PEP 8 Style Guide
+There is a general style guide given to us known as the [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/). Some examples of idioms that are included in the guide are written in [Truth values for conditions](truthvalues.md) and [Naming Conventions](#naming-conventions)
+
 ## `assert` keyword
 This is meant to be used as a debugging tool for internal checks of where the program should never possibly go. As stated in *Python Tricks*, while exceptions can signal errors where the user can take corrective action to fix the issue, assertions are signals for developers that something that was supposed to be impossible has happened.
 

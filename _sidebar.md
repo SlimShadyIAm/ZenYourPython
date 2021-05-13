@@ -8,6 +8,7 @@
 * [dicts](dicts.md)
 * [f-strings and string formatting](fstrings.md)
 * [generators](generators.md)
+* [if-conditions](truthvalues.md)
 * [looping with iterables](loopingiterables.md)
 * [magic methods (dunders)](magicmethods.md)
 * [practices](practices.md)
