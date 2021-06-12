@@ -1,7 +1,7 @@
 # `__repr__` and `__str__` [Readability, Programming Efficiency]
 
 ### Detectors
-- [Github.com](https://github.com/SlimShadyIAm/DetectYourZen/blob/main/src/main/scala/slim/NewMagicMethodsAnalysis.scala)
+- [Github.com](https://github.com/SlimShadyIAm/DetectYourZen/blob/main/src/main/scala/slim/ReprStrsAnalysis.scala)
 
 ### What is this?
 Suppose we have the following class:
