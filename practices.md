@@ -1,5 +1,8 @@
 # Good practices [Readability]
 
+### Detectors
+- [Github.com](https://github.com/SlimShadyIAm/DetectYourZen/blob/main/src/main/scala/slim/NewCallNameCountersAnalysis.scala)
+
 ## Python PEP 8 Style Guide
 There is a general style guide given to us known as the [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/). Some examples of idioms that are included in the guide are written in [Truth values for conditions](truthvalues.md) and [Naming Conventions](#naming-conventions)
 

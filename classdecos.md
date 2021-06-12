@@ -1,5 +1,8 @@
 # Special class decorations [Readability, Programming Efficiency]
 
+### Detectors
+- [Github.com](https://github.com/SlimShadyIAm/DetectYourZen/blob/main/src/main/scala/slim/NewDecoratorAnalysis.scala)
+
 ### A brief introduction
 Normally, methods in classes, known as *instance methods*, implicitly receive the instance of the class (`self`) as the first argument. You will be familiar with the following syntax:
 

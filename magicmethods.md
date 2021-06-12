@@ -1,5 +1,8 @@
 # Magic Methods (dunder methods) [Readability, Programming Efficiency]
 
+### Detectors
+- [Github.com](https://github.com/SlimShadyIAm/DetectYourZen/blob/main/src/main/scala/slim/NewMagicMethodsAnalysis.scala)
+
 ### What is it?
 These are considered special methods used to override default behavior in Python that, as the docs describe, are invoked by special syntax (such as +, -, >, <) [1].
 

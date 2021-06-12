@@ -3,6 +3,10 @@
 ### What is it?
 In Python, comprehensions are a block of code that can generate a sequence or filter/apply an operation to an existing sequence. These are considered pythonic, as opposed to using for loops to generate lists. Comprehensions are preferred over for-loops and `map`/`filter`, where possible and feasible. There are 3 types of comprehensions. 
 
+### Detectors
+- [Bitbucket.org](https://bitbucket.org/sealuzh/lisa/src/master/lisa-module/src/main/scala/ch/uzh/ifi/seal/lisa/module/analysis/python-native/PythonNativeNameAnalysis.scala)
+    - Makes use of [Bitbucket.org](https://bitbucket.org/sealuzh/lisa/src/master/lisa-module/src/main/scala/ch/uzh/ifi/seal/lisa/module/parser/PythonNativeParser.scala)
+
 ## List comprehension
 
 ### Not pythonic

@@ -1,4 +1,8 @@
 # `itertools` [Readability, Programming Efficiency, Performance]
+
+### Detectors
+- [Github.com](https://github.com/SlimShadyIAm/DetectYourZen/blob/main/src/main/scala/slim/NewDecoratorAnalysis.scala)
+
 ### What is this?
 This is a built-in module with a lot of useful methods to interface with iterables, which not only improves readability but can improve performance too.
 

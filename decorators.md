@@ -1,4 +1,7 @@
 # Decorators [Readability, Programming Efficiency]
+### Detectors
+- [Bitbucket.org](https://bitbucket.org/sealuzh/lisa/src/master/lisa-module/src/main/scala/ch/uzh/ifi/seal/lisa/module/analysis/pythonic/DecoratorImplementationAnalysis.scala)
+
 ### What is it?
 These can be considered reusable wrappers around callables which can provide useful utilities such as logging, rate limiting, caching and timing, or changing the behavior of the code without modifying the code inside the callable itself.
 

@@ -1,4 +1,9 @@
 # `heapq` [Performance, Programming Efficiency]
+
+### Detectors
+- [Github.com](https://github.com/SlimShadyIAm/DetectYourZen/blob/main/src/main/scala/slim/NewCallNameCountersAnalysis.scala)
+
+
 ### What is this?
 A built-in priority queue implementation in Python
 

@@ -1,5 +1,9 @@
 # Generators and generator expressions [Performance]
 
+### Detectors
+- [Bitbucket.org](https://bitbucket.org/sealuzh/lisa/src/master/lisa-module/src/main/scala/ch/uzh/ifi/seal/lisa/module/analysis/python-native/PythonNativeNameAnalysis.scala)
+    - Makes use of [Bitbucket.org](https://bitbucket.org/sealuzh/lisa/src/master/lisa-module/src/main/scala/ch/uzh/ifi/seal/lisa/module/parser/PythonNativeParser.scala)
+
 ## Generators
 ### What is this?
 In some cases, as opposed to returning a list of items, a generator can be used as well. Generators are essentially a function that produces a sequence of items, aka an iterator. The reason we want this is because when building a list, you must allocate the memory and resources to produce the entire list when creating it. In some cases though we can get away with lazily building the list, and instead only building parts when we need it.

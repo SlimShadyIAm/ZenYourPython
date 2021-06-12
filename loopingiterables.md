@@ -1,5 +1,8 @@
 # Pythonic ways to loop through iterables [Readability, Programming Efficiency]
 
+### Detectors
+- [Github.com](https://github.com/SlimShadyIAm/DetectYourZen/blob/main/src/main/scala/slim/NewCallNameCountersAnalysis.scala)
+
 ## `for` loops
 
 ### What is this?
